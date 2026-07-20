@@ -1,0 +1,31 @@
+[
+{
+  "model": "riesgos.riesgo",
+  "pk": 1,
+  "fields": {
+    "nombre": "Acceso no autorizado al servidor",
+    "descripcion": "Posibilidad de que usuarios sin autorización accedan al servidor principal de la organización.",
+    "categoria": "Seguridad",
+    "activo_afectado": "Servidor principal",
+    "impacto": 5,
+    "probabilidad": 4,
+    "nivel": "CRITICO",
+    "estado": "IDENTIFICADO",
+    "responsable": "Administrador TI",
+    "fecha_creacion": "2026-07-20T03:48:22.874Z",
+    "fecha_actualizacion": "2026-07-20T03:48:22.874Z"
+  }
+},
+{
+  "model": "riesgos.planmitigacion",
+  "pk": 1,
+  "fields": {
+    "riesgo": 1,
+    "descripcion": "Implementar autenticación multifactor, revisar los permisos de acceso y habilitar el registro de eventos de seguridad.",
+    "responsable": "Administrador de seguridad",
+    "fecha_limite": "2026-08-25",
+    "estado": "PENDIENTE",
+    "fecha_creacion": "2026-07-20T03:53:28.962Z"
+  }
+}
+]

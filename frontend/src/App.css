@@ -1,0 +1,15 @@
+.app-shell {
+  min-height: 100vh;
+  background: #eef2f7;
+}
+
+.app-content {
+  min-height: 100vh;
+  margin-left: 270px;
+}
+
+@media (max-width: 900px) {
+  .app-content {
+    margin-left: 0;
+  }
+}

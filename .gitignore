@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Node
+frontend/node_modules/
+
+# React
+frontend/dist/
+
+# VS Code
+.vscode/
+
+# Variables de entorno
+.env
+.env.*
+
+# Logs
+*.log
